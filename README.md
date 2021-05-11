@@ -59,4 +59,4 @@ Suppose we are dealing with a second hand car sales platform like OLX or Car Baz
 9. Suppose, till now, the company was ranking the advertisements in a descending order on the basis of date_last_seen, so can you demonstrate the lift in performance of your model as compared to the current ranking criteria?
 10. Can you explain in a step-by-step manner, how you performed various iterations and what impact did it have on the model accuracy?
 
-** Please upload your analysis notebooks/scripts in a Github repository and email us the link to your repo at foundersdesk@yugen.ai with the subject “Assignment_solutions_yourname”.**
+**Please upload your analysis notebooks/scripts in a Github repository and email us the link to your repo at foundersdesk@yugen.ai with the subject `Assignment_solutions_yourname`.**
