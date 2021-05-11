@@ -7,35 +7,35 @@ The data was scraped over a period of more than a year from Car Classified websi
 The complete dataset can be found in the `assignment.zip` zipped file in the repository.
 There are 3 files in the dataset:
 1. `Historical Dataset` - The dataset contains `~686k` rows related to different advertisements for cars.It contains the following columns:
-- `maker` - normalized all lowercase, manufacturer of the car
-- `model` - normalized all lowercase, model name of the car
-- `mileage` - in KM
-- `Manufacture_year`
-- `engine_displacement` - in ccm
-- `engine_power` - in kW
-- `body_type` - type of the car’s body, only personal cars, no motorcycles or utility vehicles
-- `color_slug` - colour of the car
-- `stk_year` - year of the last emission control
-- `transmission` - automatic or manual
-- `Door_count`
-- `Seat_count`
-- `fuel_type` - gasoline, diesel, cng, lpg, electric
-- `date_created` - when the ad was created
-- `date_last_seen` - when the ad was last seen. If sold_flag=1, this is also the date when the car was sold.
-- `price_eur` - list price converted to EUR
-- `Sold_flag` - Whether the car was sold through the platform or not. The company will earn a commission only on the cars sold through the platform
-- `Height_of_picture` - height of the picture used in the advertisements 
-- `Width_of_picture` - width of the picture used in the advertisements 
-- `Aspect_ratio` - aspect ratio of the picture used in the advertisements 
-- `Number of pictures` - Number of pictures of the car uploaded
+    - `maker` - normalized all lowercase, manufacturer of the car
+    - `model` - normalized all lowercase, model name of the car
+    - `mileage` - in KM
+    - `Manufacture_year`
+    - `engine_displacement` - in ccm
+    - `engine_power` - in kW
+    - `body_type` - type of the car’s body, only personal cars, no motorcycles or utility vehicles
+    - `color_slug` - colour of the car
+    - `stk_year` - year of the last emission control
+    - `transmission` - automatic or manual
+    - `Door_count`
+    - `Seat_count`
+    - `fuel_type` - gasoline, diesel, cng, lpg, electric
+    - `date_created` - when the ad was created
+    - `date_last_seen` - when the ad was last seen. If sold_flag=1, this is also the date when the car was sold.
+    - `price_eur` - list price converted to EUR
+    - `Sold_flag` - Whether the car was sold through the platform or not. The company will earn a commission only on the cars sold through the platform
+    - `Height_of_picture` - height of the picture used in the advertisements 
+    - `Width_of_picture` - width of the picture used in the advertisements 
+    - `Aspect_ratio` - aspect ratio of the picture used in the advertisements 
+    - `Number of pictures` - Number of pictures of the car uploaded
 
 2. `Current_inventory_data` - The dataset contains `~25k` rows related to the advertisements currently active (in the inventory) that can be displayed. There might be some cars which might be sold but their advertisement is still in the inventory so they need not be shown to users. The columns in this dataset are the same as the columns in the Historical Dataset.
 
 3. `Commission data` - There are `~139` rows and the following columns in the dataset:
-- `Maker` - normalized all lowercase, manufacturer of the car
-- `Year` - The year where the slab was valid
-- `Commission` - the percentage commission earned by the company on a successful sale
-- `PS` - There is too much variance even within individual models with respect to pricing
+    - `Maker` - normalized all lowercase, manufacturer of the car
+    - `Year` - The year where the slab was valid
+    - `Commission` - the percentage commission earned by the company on a successful sale
+    - `PS` - There is too much variance even within individual models with respect to pricing
 
 ## Questions (Assume Current Month -  April, 2017)
 
