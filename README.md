@@ -42,10 +42,10 @@ There are 3 files in the dataset:
 Suppose we are dealing with a second hand car sales platform like OLX or Car Bazaar.com. Where anyone who wants to sell his/her car can post an advertisement. Other users can browse different advertisements and buy a second hand car. The company will generate revenue based on commission from sales of cars. The company currently has `~25k` advertisements in the inventory data. **The end objective of the exercise is to create a ranked list of car advertisements in the current inventory which would optimize revenue for the company. **
 
 ### Please note:
-- Quality of answers is very important to us. Writing optimized codes is a key parameter in evaluation.
-- If you are taking an assumption in a certain question, please mention the same along with your solution
-- Some questions can be answered by simple EDA (exploratory data analysis), please share supporting data/ visualization wherever needed.
-- The assignment is to help us evaluate your grasp on the topic, so providing details into your thought process in a crisp & precise manner will help us understand your approach better.
+1. Quality of answers is very important to us. Writing optimized codes is a key parameter in evaluation.
+2. If you are taking an assumption in a certain question, please mention the same along with your solution
+3. Some questions can be answered by simple EDA (exploratory data analysis), please share supporting data/ visualization wherever needed.
+4. The assignment is to help us evaluate your grasp on the topic, so providing details into your thought process in a crisp & precise manner will help us understand your approach better.
 
 ### Questions:
 1. Which body type has the highest demand in different seasons (Summer, Winter, rainy)?
