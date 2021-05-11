@@ -3,7 +3,7 @@ All the questions will be self-explanatory, however, if you have any doubts/quer
 We would prefer receiving your solutions within **5 days (including Saturday and Sunday)**, however, if you need more time, please write to us at **foundersdesk@yugen.ai** and let us know in advance
 
 ## Context to Data
-The data was scraped over a period of more than a year from Car Classified websites (think OLX or CarBazaar.com etc.). The scrapers were tuned slowly over the course of the year and some of the sources were completely unstructured, so as a result the data is dirty, there are missing values and some values are very obviously wrong (e.g. phone numbers scraped as mileage etc.). The data is for the years 2015-2017. 
+The data was scraped over a period of more than a year from Car Classified websites (think OLX or CarBazaar.com etc.). The scrapers were tuned slowly over the course of the year and some of the sources were completely unstructured, so as a result the data is dirty, there are missing values and some values are very obviously wrong (e.g. `phone numbers` scraped as `mileage` etc.). The data is for the years `2015-2017`. 
 The complete dataset can be found in the `assignment.zip` zipped file in the repository.
 There are 3 files in the dataset:
 1. `Historical Dataset` - The dataset contains `~686k` rows related to different advertisements for cars.It contains the following columns:
