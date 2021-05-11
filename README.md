@@ -10,15 +10,15 @@ There are 3 files in the dataset:
     - `maker` - normalized all lowercase, manufacturer of the car
     - `model` - normalized all lowercase, model name of the car
     - `mileage` - in KM
-    - `Manufacture_year`
+    - `Manufacture_year` - The year of when the car was manufactured
     - `engine_displacement` - in ccm
     - `engine_power` - in kW
     - `body_type` - type of the car’s body, only personal cars, no motorcycles or utility vehicles
     - `color_slug` - colour of the car
     - `stk_year` - year of the last emission control
     - `transmission` - automatic or manual
-    - `Door_count`
-    - `Seat_count`
+    - `Door_count` - Number of doors in the car
+    - `Seat_count` - Number of persons which can fit in the car
     - `fuel_type` - gasoline, diesel, cng, lpg, electric
     - `date_created` - when the ad was created
     - `date_last_seen` - when the ad was last seen. If sold_flag=1, this is also the date when the car was sold.
