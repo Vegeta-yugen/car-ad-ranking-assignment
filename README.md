@@ -43,9 +43,10 @@ Suppose we are dealing with a second hand car sales platform like OLX or Car Baz
 
 ### Please note:
 1. Quality of answers is very important to us. Writing optimized codes is a key parameter in evaluation.
-2. If you are taking an assumption in a certain question, please mention the same along with your solution
-3. Some questions can be answered by simple EDA (exploratory data analysis), please share supporting data/ visualization wherever needed.
-4. The assignment is to help us evaluate your grasp on the topic, so providing details into your thought process in a crisp & precise manner will help us understand your approach better.
+2. In your solution file/script, please mention the relevant question & question number as a heading/comment above the different sections in your codebase.
+3. If you are taking an assumption in a certain question, please mention the same along with your solution
+4. Some questions can be answered by simple EDA (exploratory data analysis), please share supporting data/ visualization wherever needed.
+5. The assignment is to help us evaluate your grasp on the topic, so providing details into your thought process in a crisp & precise manner will help us understand your approach better.
 
 ### Questions:
 1. Which body type has the highest demand in different seasons (Summer, Winter, rainy)?
