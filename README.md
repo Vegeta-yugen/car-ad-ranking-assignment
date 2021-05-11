@@ -1,8 +1,7 @@
-# Assignment Details
-All the questions will be self-explanatory, however, if you have any doubts/queries, you can write to us at **foundersdesk@yugen.ai** about it.
-We would prefer receiving your solutions within **5 days (including Saturday and Sunday)**, however, if you need more time, please write to us at **foundersdesk@yugen.ai** and let us know in advance
+# Problem Statement
+Suppose we are dealing with a second hand car sales platform like OLX or Car Bazaar.com. Where anyone who wants to sell his/her car can post an advertisement. Other users can browse different advertisements and buy a second hand car. The company will generate revenue based on commission from sales of cars. The company currently has `~25k` advertisements in the inventory data. **The end objective of the exercise is to create a ranked list of car advertisements in the current inventory which would optimize revenue for the company. **
 
-## Context to Data
+## Data Description
 The data was scraped over a period of more than a year from Car Classified websites (think OLX or CarBazaar.com etc.). The scrapers were tuned slowly over the course of the year and some of the sources were completely unstructured, so as a result the data is dirty, there are missing values and some values are very obviously wrong (e.g. `phone numbers` scraped as `mileage` etc.). The data is for the years `2015-2017`. 
 The complete dataset can be found in the `assignment.zip` zipped file in the repository.
 There are 3 files in the dataset:
@@ -35,11 +34,8 @@ There are 3 files in the dataset:
     - `Maker` - normalized all lowercase, manufacturer of the car
     - `Year` - The year where the slab was valid
     - `Commission` - the percentage commission earned by the company on a successful sale
-    - `PS` - There is too much variance even within individual models with respect to pricing
 
 ## Questions (Assume Current Month -  April, 2017)
-
-Suppose we are dealing with a second hand car sales platform like OLX or Car Bazaar.com. Where anyone who wants to sell his/her car can post an advertisement. Other users can browse different advertisements and buy a second hand car. The company will generate revenue based on commission from sales of cars. The company currently has `~25k` advertisements in the inventory data. **The end objective of the exercise is to create a ranked list of car advertisements in the current inventory which would optimize revenue for the company. **
 
 ### Please note:
 1. Quality of answers is very important to us. Writing optimized codes is a key parameter in evaluation.
@@ -47,6 +43,8 @@ Suppose we are dealing with a second hand car sales platform like OLX or Car Baz
 3. If you are taking an assumption in a certain question, please mention the same along with your solution
 4. Some questions can be answered by simple EDA (exploratory data analysis), please share supporting data/ visualization wherever needed.
 5. The assignment is to help us evaluate your grasp on the topic, so providing details into your thought process in a crisp & precise manner will help us understand your approach better.
+6. All the questions will be self-explanatory, however, if you have any doubts/queries, you can write to us at **foundersdesk@yugen.ai** about it.
+7. We would prefer receiving your solutions within **5 days (including Saturday and Sunday)**, however, if you need more time, please write to us at **foundersdesk@yugen.ai** and let us know in advance
 
 ### Questions:
 1. Which body type has the highest demand in different seasons (Summer, Winter, rainy)?
